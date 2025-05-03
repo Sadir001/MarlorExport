@@ -99,9 +99,9 @@ export default function Footer() {
               <li className="flex">
                 <MapPin className="h-5 w-5 text-red-500 mr-2" />
                 <span className="text-gray-400">
-                  123 Export Plaza, Business District
+                  211, Okhla INDL, Estate Phase III, Okhla industrial Estate, South Delhi
                   <br />
-                  New Delhi, 110001, India
+                  New Delhi, 110020, India
                 </span>
               </li>
               <li className="flex">
