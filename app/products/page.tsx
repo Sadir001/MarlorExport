@@ -8,27 +8,27 @@ export default function ProductsPage() {
   const products = [
     {
       id: 1,
-      name: "EVA Slippers",
+      name: "CALZADO",
       description: "Lightweight and durable footwear for daily use.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/marlorimg1.jpeg",
     },
     {
       id: 2,
-      name: "Tiles",
+      name: "CERAMICA Y PORCELANATO",
       description: "Ceramic and porcelain tiles in various sizes and finishes.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/marlorimg2.jpeg",
     },
     {
       id: 3,
-      name: "Scaffolding",
+      name: "ANDAMIO",
       description: "Steel scaffolding systems for construction projects.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/marlorimg3.jpeg",
     },
     {
       id: 4,
-      name: "Steel Props",
+      name: "PUNTAL TELESCOPICO",
       description: "Telescopic steel props for structural support.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/marlorimg4.jpeg",
     },
   ]
 
@@ -56,7 +56,7 @@ export default function ProductsPage() {
         {products.map((product) => (
           <Card key={product.id} className="overflow-hidden">
             <div className="aspect-video relative">
-              <Image src={product.image || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
+              <Image src={product.image || "/placeholder.svg"} alt={product.name} fill className="object-fit" />
             </div>
             <CardHeader>
               <CardTitle>{product.name}</CardTitle>
